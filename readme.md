@@ -160,7 +160,7 @@ python schema_action.py \
 ## 📊 Supported Small Language Models
 
 | Model Family | Parameters | Training Script | Inference Speed |
-|-------------|-----------|-----------------|------|-----------------|
+|-------------|-----------|-----------------|-----------------|
 | **Qwen** | 0.5B-14B | `train_qwen_lora*.py` | Fast |
 | **DeepSeek** | 1.5B-14B | `train_deepseek_lora*.py` | Fast |
 | **Llama** | 1B-8B | `train_llama_lora*.py` | Fast |
@@ -168,37 +168,12 @@ python schema_action.py \
 | **Mistral** | 7B | `train_mistral_lora.py` | Medium |
 | **SmolLM** | 1.7B | `train_smollm_lora.py` | Very Fast |
 
+
 **All models support:**
 - ✅ 4-bit QLoRA training
 - ✅ FAISS RAG integration
 - ✅ Multi-language deployment
 - ✅ Edge device optimization
-
----
-
-## 🎬 Demos
-
-### Component 1: Louis Vuitton Customer Service (RAG + LoRA)
-![Component 1 Demo](assets/component1_demo.gif)
-
-**Query**: "OnTheGo有哪些尺寸？"  
-**Response**: "OnTheGo系列有三种尺寸：PM（25×19×11.5cm）适合日常，MM（35×27×14cm）容量适中，GM（41×34×19cm）适合旅行..."
-
-**Live Feedback**: Users can correct responses → System updates knowledge base instantly
-
----
-
-### Component 3: Retail Analytics (Schema-Action Query)
-![Component 3 Demo](assets/component3_demo.gif)
-
-**Query**: "Show customers who spent more than $1000 in 2017"  
-**System Processing**:
-```
-[Table Selection] → customers.csv, sales-2017.csv
-[Auto-JOIN] → CustomerKey
-[Filter & Aggregate] → TotalSpent > 1000
-[Response Synthesis] → Natural language answer
-```
 
 ---
 
@@ -241,35 +216,8 @@ python schema_action.py \
 | **Data Processing** | 4GB RAM | 8GB RAM | CPU only |
 
 **Tested Hardware:**
-- ✅ RTX 3060 (12GB) - All components
-- ✅ RTX 4060 (8GB) - All components (lower batch size)
-- ✅ RTX 3050 (6GB) - Inference only
-
----
-
-## 📚 Documentation
-
-### Getting Started
-- [Installation Guide](docs/INSTALLATION.md)
-- [Quick Start Tutorial](docs/QUICKSTART.md)
-
-### Component Guides
-- [Component 1: Conversational RAG](conversational_rag/README.md)
-  - RAG system architecture
-  - LoRA training tutorials
-  - Live feedback system
-- [Component 2: LoRA Training](conversational_rag/lora_trainer/README.md)
-  - Model-specific training scripts
-  - Hyperparameter tuning
-  - Dataset preparation
-- [Component 3: Schema-Action Query](schema_action/README.md)
-  - Multi-table configuration
-  - Query planning pipeline
-  - Auto-JOIN system
-- [Deployment Guide](deployment/README.md)
-  - Streamlit interface
-  - Production deployment
-  - Feedback management
+- ✅ RTX 3090 (24GB)    - All components
+- ✅ RTX 2000 ada (8GB) - Inference only
 
 ---
 
@@ -294,7 +242,6 @@ python schema_action.py \
 
 ### vs. Cloud LLM APIs (GPT-4, Claude):
 - ✅ **100x cheaper** - No per-token costs
-- ✅ **10x faster** - Local inference (50-200ms)
 - ✅ **Complete privacy** - Data never leaves your infrastructure
 - ✅ **Unlimited scaling** - No rate limits
 - ✅ **Full customization** - Fine-tune on your exact domain
