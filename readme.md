@@ -329,7 +329,7 @@ python schema_action.py \
 
 ## 🤝 Contributing
 
-Contributions welcome! Please read [CONTRIBUTING.md](CONTRIBUTING.md) first.
+Contributions welcome! 
 
 **Priority areas:**
 - 🌐 More language support (currently EN/CN)
@@ -345,11 +345,11 @@ Contributions welcome! Please read [CONTRIBUTING.md](CONTRIBUTING.md) first.
 ```bibtex
 @software{edgellm2025,
   title={EdgeLLM: Full-Stack Small Language Model Framework},
-  author={Darren Lim},
+  author={Darren & Lim},
   year={2025},
   institution={Tunku Abdul Rahman University of Management and Technology (TARUMT)},
   organization={Centre for Business, Economics and Intelligent Ventures (CBEIV)},
-  url={https://github.com/yourusername/EdgeLLM}
+  url={https://github.com/darrencxl0301/EdgeLLM}
 }
 ```
 
@@ -369,8 +369,8 @@ This project is open-source and free to use for:
 
 ## 📮 Contact & Support
 
-### Project Lead
-**Darren Lim**  
+### Project Members
+**Darren Chai Xin Lun**  
 Data Science Honours Student  
 Tunku Abdul Rahman University of Management and Technology (TARUMT)
 
@@ -389,7 +389,7 @@ Tunku Abdul Rahman University of Management and Technology
 Jalan Genting Kelang, Setapak  
 53300 Kuala Lumpur, Malaysia
 
-🌐 Website: [https://www.tarc.edu.my](https://www.tarc.edu.my)
+🌐 Website: [https://cbiev.tarc.edu.my)](https://cbiev.tarc.edu.my)
 
 ---
 
