@@ -11,7 +11,7 @@
 
 **Three Powerful Components**: RAG + LoRA Training + Structured Querying
 
-[📖 Documentation](#documentation) | [🚀 Quick Start](#quick-start) | [🎬 Demos](#demos) | [🤝 Collaboration](#collaboration-opportunities)
+[📖 Documentation](#documentation) | [🚀 Quick Start](#quick-start) | [🤝 Collaboration](#collaboration-opportunities)
 
 </div>
 
